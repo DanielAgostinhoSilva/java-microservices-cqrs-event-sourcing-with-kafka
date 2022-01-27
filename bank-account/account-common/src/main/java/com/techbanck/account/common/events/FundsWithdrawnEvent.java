@@ -11,5 +11,5 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @SuperBuilder
 public class FundsWithdrawnEvent extends BaseEvent {
-    private boolean amount;
+    private double amount;
 }
